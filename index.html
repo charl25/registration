@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="registration.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="center container">
-    
-        
-        <div >
+
+
+        <div>
             <h1>
                 RegList
             </h1>
 
-            <div class="center">    
+            <div class="center">
                 <div class="container">
                     <h5>Enter Reg Number</h5>
                     <textarea name="name" id="" cols="30" rows="1" class="regInput"></textarea>
                 </div>
             </div>
+            <div class= center">
+                <button class="addBtn"> Add </button><br>
+            </div>
             <div class="center">
                 <label class="">
                     <input type="radio" name="town" class="townRadio" value="CA">
-                    <span class="label-body" >Cape Town</span>
-                  </label>
-                  <label class="">
+                    <span class="label-body">Cape Town</span>
+                </label>
+                <label class="">
                     <input type="radio" name="town" class="townRadio" value="CY">
-                    <span class="label-body" >Belville</span>
-                  </label>
-                  <label class="">
+                    <span class="label-body">Belville</span>
+                </label>
+                <label class="">
                     <input type="radio" name="town" class="townRadio" value="CJ">
-                    <span class="label-body" >Paarl</span>
-                  </label>
-                  <label class="">
-                    <input type="radio" name="town" class="townRadio" value="C">
-                    <span class="label-body" >Show All</span>
-                  </label>
+                    <span class="label-body">Paarl</span>
+                </label>
+            </div>
+            <div class="center">
+                <br>
+                <button class="filterBtn">filter</button>
 
             </div>
-            <div class="center center">
-                <button class="addBtn"> Add </button>
-                <button class="filterBtn">filter</button>
-            </div>
-            
+
             <div>
                 <h3><span class="display"></span></h3>
             </div>
         </div>
 
     </div>
-    
+
     <script src="registration-function.js"></script>
 
     <script src="registration.js"></script>
 </body>
+
 </html>

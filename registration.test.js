@@ -26,6 +26,7 @@ describe("Registration Function", function(){
         regNums.plateNumber("CA 2153")
         regNums.plateNumber("CY 21523")
         regNums.plateNumber("CJ 21523")
+        regNums.getPlates()
         regNums.sort("CA")
         assert.equal("CA 2153", regNums.sorted())
     })

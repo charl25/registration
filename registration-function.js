@@ -1,6 +1,6 @@
 function RegNums(list) {
     let plate = list || [];
-    //let sortedList = [];
+    let sortedList = [];
 
     function plateNumber(x) {
         if (/C[AYJ] \d{3,6}$/.test(x) && !(plate.includes(x))) {
@@ -33,10 +33,6 @@ function RegNums(list) {
                     sortedList.push(plate[i])
                 }
             }
-        }
-        if (x === "all") {
-
-            sortedList = list
         }
 
     }
