@@ -20,7 +20,11 @@ body{
     margin: 10px;
     
 }
+.display{
+text-align: center;
+}
 li{
+    display: block;
     list-style: none;
 	background-color: silver;
 	border: 0.1em solid;
@@ -30,6 +34,6 @@ li{
 	width: 7em;
 	text-align: center;
 	font-weight: bold;
-    float: left;
+    /* float: left; */
 
 }
